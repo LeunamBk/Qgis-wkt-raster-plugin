@@ -10,6 +10,6 @@ Icons credits:
 - other icons are from QGIS project (GPLv2 license)
 
 --------------------------------------------------------------------------------------------------------------------------
-Manuel Beck Copyright (c) 2008-2015
+Manuel Beck Copyright (c) 2015
   - support for Qgis version > 1.7
   - added SQl query field for selecting rasters by attributes 
