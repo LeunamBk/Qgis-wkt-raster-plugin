@@ -8,3 +8,8 @@ Icons credits:
 - refresh toolbar icon is from Tango project (public domain)
 - table, view and namespace icons in database view are from pgAdmin3 (BSD license)
 - other icons are from QGIS project (GPLv2 license)
+
+--------------------------------------------------------------------------------------------------------------------------
+Manuel Beck Copyright (c) 2008-2015
+  - support for Qgis version > 1.7
+  - added SQl query field for selecting rasters by attributes 
