@@ -1,0 +1,6 @@
+<RCC> 
+  <qresource prefix="/plugins/wktraster" > 
+    <file>icon.png</file> 
+  </qresource> 
+</RCC> 
+

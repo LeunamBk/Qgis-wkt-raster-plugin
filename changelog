@@ -1,0 +1,57 @@
+version 0.5.4
+    The loader has been reenabled but with a weaker version. 
+
+version 0.5.3
+    The loader had to be disabled since postgis' raster python loader is not working with the current trunk.
+    Updated the reader to make use of the new raster_columns view.
+
+version 0.5.2
+    Fixed bug when reading one row as raster in a database without raster tables.
+    The plugin now can upload raster as a standalone program.
+    Plugin now guesses good numbers for raster overviews.
+
+version 0.5.1
+        Bug fix- Exceptions handling.
+
+version 0.5.0
+	Added thread for the loader. Now the user is able to cancel and see messages while loading.
+	Added more options for raster loading. Now the plugin can load single row raster data and vector bounding boxes of tiled rasters.
+	The "Add PostGIS raster layer" tool now check's for available raster colums and read metadata from raster_columns.
+	Layer listing now checks for postgis and pgraster extensions.
+	
+version 0.4.2
+	New options on the loader interface. Now it's able to build overviews.
+
+version 0.4.1
+	Minor bugfixes.
+
+version 0.4.0
+	Compatibility with PostGIS 2.0 SVN and GDAL 1.8. Many options were revised as GDAL 1.7 doesn't work the same way 1.8 does.
+
+version 0.3.4
+    Bugfix for the database menu as recommended by Giuseppe.
+
+version 0.3.3
+    Workaround for the transparency bug. Now it forces transparency level to -32768 to avoid problems.
+
+version 0.3.2 
+    Bugfixes thanks to Paolo Cavalini
+    Finished the migration to psycopg using PGManager's utils.
+    Now the user can choose a python script that is dinamically loaded instead of choosing a folder on the Loader GUI.
+    The script now doesn't require a postgis installation. gdal2wktraster.py was embedded on the script and should be upgraded from time to time. This way non-server users can load data too with just a plain gdal installation.
+version 0.3.1
+    bugfixes thanks to Noli Sicad
+
+version 0.3
+    Created a new loader interface. The user is now able to load data to postgis using the plugin. 
+    Refactoring aiming to be more like other Postgis Plugins and use psycopg as postgis module.
+
+versions 0.2.x
+    bugfixes
+    The code was prepared for gdal version 1.8 and new stuff Jorge implemented but they are not backwards compatible so these changes are still frozen.
+
+version 0.2
+    The plugin now connects to the database using PyQt SQL to read what are the available tables there and shows metadata.
+
+version 0.1
+    The plugin loads data using a input box.

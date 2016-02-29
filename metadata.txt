@@ -1,0 +1,51 @@
+; the next section is mandatory
+
+[general]
+name=Load Postgis Raster to QGIS
+
+
+name=Load Postgis Raster to QGIS
+qgisMinimumVersion=1.0
+
+
+icon=icon.png
+
+email=me@example.com
+author=Just Me
+qgisMinimumVersion=2.0
+description=Allows connecting to database and choose Postgis Raster tables.
+
+about=This paragraph can contain a detailed description
+    of the plugin. Multiline is allowed, HTML is not.
+version=version 1.2
+; end of mandatory metadata
+
+; start of optional metadata
+category=Raster
+changelog=The changelog lists the plugin versions
+    and their changes as in the example below:
+    1.0 - First stable release
+    0.9 - All features implemented
+    0.8 - First testing release
+
+; Tags are in comma separated value format, spaces are allowed within the
+; tag name.
+; Tags should be in English language. Please also check for existing tags and
+; synonyms before creating a new one.
+tags=wkt,raster,hello world
+
+; these metadata can be empty, they will eventually become mandatory.
+homepage=http://www.itopen.it
+tracker=http://bugs.itopen.it
+repository=http://www.itopen.it/repo
+icon=icon.png
+
+; experimental flag (applies to the single version)
+experimental=True
+
+; deprecated flag (applies to the whole plugin and not only to the uploaded version)
+deprecated=False
+
+; if empty, it will be automatically set to major version + .99
+qgisMaximumVersion=3.0
+
